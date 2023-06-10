@@ -1,11 +1,13 @@
+<!-- Memanggil file sesion.php untuk mengidentifikasikan user -->
 <?php include 'layouts/session.php'; ?>
-<?php include 'layouts/head-main.php'; ?>
 
 <head>
     <title><?php echo $language["Dashboard"]; ?> |  MatabelX - Memantau Barang Elektronik Jarak Jauh</title>
 
+<!-- Memangil file head.php yang ber isi main head -->
     <?php include 'layouts/head.php'; ?>
 
+<!-- Memanggil style css dan js external untuk mempercantik tampilan -->
     <link href="assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -29,10 +31,11 @@
 <!-- Begin page -->
 <div id="layout-wrapper">
 
+<!-- memunculkan sidebar/menubar -->
     <?php include 'layouts/menu.php'; ?>
 
     <!-- ============================================================== -->
-    <!-- Start right Content here -->
+    <!-- Start - Isi konten dalam halaman beranda/Home -->
     <!-- ============================================================== -->
     <div class="main-content">
 
@@ -121,6 +124,10 @@
         <?php include 'layouts/footer.php'; ?>
     </div>
     <!-- end main content-->
+
+    <!-- ============================================================== -->
+    <!-- End - Isi konten dalam halaman beranda/Home -->
+    <!-- ============================================================== -->
 
 </div>
 <!-- END layout-wrapper -->
