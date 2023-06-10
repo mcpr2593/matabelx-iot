@@ -1,4 +1,5 @@
 <?php
+    //system untuk mengubah value/nilai relay pada database 0=mati 1=nyala
     if(isset($_GET['device']) && isset($_GET['state'])){
         include 'layouts/config.php';
         $state = $_GET['state'];
