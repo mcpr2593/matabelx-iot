@@ -132,6 +132,8 @@
 </div>
 <!-- END layout-wrapper -->
 
+
+
 <!-- Right Sidebar -->
 <?php include 'layouts/right-sidebar.php'; ?>
 <!-- /Right-bar -->
