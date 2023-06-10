@@ -1,8 +1,4 @@
-<style>
-    .logo{
-        border-radius: 30px 0 30px 0;
-    }
-</style>
+
 <h1 align="center"> GitPoint </h1> <br>
 <p align="center">
   <a href="https://midys.web.id/">
@@ -11,7 +7,7 @@
 </p>
 
 <p align="center">
-  GitHub in your pocket. Built with React Native.
+  Make your idea with Midnight Studio
 </p>
 
 <p align="center">
