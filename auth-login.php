@@ -1,39 +1,39 @@
 <?php
-// Initialize the session
+// Memmulai sesi
 session_start();
 
-// Check if the user is already logged in, if yes then redirect him to index page
+// Cek apakah user telah melakukan login
 if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true) {
     header("location: index.php");
     exit;
 }
-// Include config file
+// memasukan file configurasi untuk terhubung ke database
 require_once "layouts/config.php";
 
 // Define variables and initialize with empty values
 $username = $password = "";
 $username_err = $password_err = "";
 
-// Processing form data when form is submitted
+// Proses Mengirimkan data user dan password
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-    // Check if username is empty
+    // melakukan cek apakah form username kosong
     if (empty(trim($_POST["username"]))) {
-        $username_err = "Please enter username.";
+        $username_err = "Please enter username.";//ketika username kosong makan akan memunculkan pesan ini
     } else {
         $username = trim($_POST["username"]);
     }
 
-    // Check if password is empty
+    // melakukan cek apakah form passwords kosong
     if (empty(trim($_POST["password"]))) {
-        $password_err = "Please enter your password.";
+        $password_err = "Please enter your password.";//ketika password kosong makan akan memunculkan pesan ini
     } else {
         $password = trim($_POST["password"]);
     }
 
-    // Validate credentials
+    // Melakukan Validasi
     if (empty($username_err) && empty($password_err)) {
-        // Prepare a select statement
+        // mepersiapkan data dari tabel data user
         $sql = "SELECT id, username, password FROM users WHERE username = ?";
 
         if ($stmt = mysqli_prepare($link, $sql)) {
@@ -62,15 +62,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             $_SESSION["id"] = $id;
                             $_SESSION["username"] = $username;
 
-                            // Redirect user to welcome page
+                            // ketika username dan password benar makan akan diarahkan ke index.php
                             header("location: index.php");
                         } else {
-                            // Display an error message if password is not valid
+                            // ketika password salah maka akan menampilakn pesan seperti di bawah
                             $password_err = "The password you entered was not valid.";
                         }
                     }
                 } else {
-                    // Display an error message if username doesn't exist
+                    // ketika username tidak ada maka akan menampilakn pesan seperti di bawah
                     $username_err = "No account found with that username.";
                 }
             } else {
