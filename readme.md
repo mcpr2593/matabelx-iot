@@ -9,7 +9,7 @@
 </p>
 
 <h2> 📁 Matabelx IOT Website By Midnight Studio. <img src="" width="25"></h2>
-<img align="right" alt="GIF" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" width="100"/>
+<img align="right" alt="GIF" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" width="200"/>
 
 <h3> 👨🏻‍💻 Tentang Project Ini </h3>
 
