@@ -1,6 +1,6 @@
 <style>
     .logo{
-        border-radius: 10px;
+        border-radius: 30px 0 30px 0;
     }
 </style>
 <h1 align="center"> GitPoint </h1> <br>
