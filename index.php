@@ -1,5 +1,5 @@
 <!-- Memanggil file sesion.php untuk mengidentifikasikan user -->
-<?php include 'layouts/session.php'; ?>
+<?php include 'layouts/session.php'; ?> 
 
 <head>
     <title><?php echo $language["Dashboard"]; ?> |  MatabelX - Memantau Barang Elektronik Jarak Jauh</title>
