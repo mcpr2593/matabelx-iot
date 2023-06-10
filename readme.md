@@ -11,9 +11,6 @@
 </p>
 
 
-<h2> Whatsapp API Gateway by mdsid. <img src="" width="25"></h2>
-<img align="right" alt="GIF" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" width="500"/>
-
 <h3> 👨🏻‍💻 About this Project </h3>
 
 - 🔭 &nbsp; I’m currently learning Flutter Application Development
