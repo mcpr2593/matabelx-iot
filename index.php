@@ -134,6 +134,7 @@
 
 
 
+
 <!-- Right Sidebar -->
 <?php include 'layouts/right-sidebar.php'; ?>
 <!-- /Right-bar -->
