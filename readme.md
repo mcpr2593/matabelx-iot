@@ -1,5 +1,5 @@
 
-<h1 align="center"> GitPoint </h1> <br>
+<h1 align="center"> MATABELX IOT </h1> <br>
 <p align="center">
   <a href="https://midys.web.id/">
     <img class="logo" alt="GitPoint" title="Midys Project" src="https://midys.web.id/assets/images/PROFILE.png" width="100" >
