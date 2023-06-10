@@ -1,9 +1,10 @@
+<!-- Memanggil file sesion.php untuk mengidentifikasikan user -->
 <?php include 'layouts/session.php'; ?>
-<?php include 'layouts/head-main.php'; ?>
 
 <head>
     
     <title>Tentang  |  MatabelX - Memantau Barang Elektronik Jarak Jauh</title>
+    <!-- Memangil file head.php yang ber isi main head -->
     <?php include 'layouts/head.php'; ?>
     <?php include 'layouts/head-style.php'; ?>
 
@@ -17,7 +18,7 @@
     <?php include 'layouts/menu.php'; ?>
 
     <!-- ============================================================== -->
-    <!-- Start right Content here -->
+    <!-- Start - Isi konten dalam halaman Tentang -->
     <!-- ============================================================== -->
     <div class="main-content">
 
@@ -73,10 +74,7 @@
                                     <li class="nav-item">
                                         <a class="nav-link px-3 active" data-bs-toggle="tab" href="#about" role="tab">Tentang Website</a>
                                     </li>
-								<!--
-                                    <li class="nav-item">
-                                        <a class="nav-link px-3" data-bs-toggle="tab" href="#about-device" role="tab">Tentang Perangkat</a>
-                                    </li> -->
+
                                 </ul>
                             </div>
                             <!-- end card body -->
@@ -637,6 +635,10 @@
             </div> <!-- container-fluid -->
         </div>
         <!-- End Page-content -->
+
+        <!-- ============================================================== -->
+        <!-- End - Isi konten dalam halaman beranda/Home -->
+        <!-- ============================================================== -->
 
 
             </div> <!-- container-fluid -->
