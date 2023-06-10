@@ -1,14 +1,14 @@
 <?php
-// Initialize the session
+// Memulai Sesi
 session_start();
 
-// Unset all of the session variables
+// menghapus semua variabel sesi
 $_SESSION = array();
 
-// Destroy the session.
+// menghentikan sesi login
 session_destroy();
 
-// Redirect to login page
+// mengarahkan ke hallaman login
 header("location: auth-login.php");
 exit;
 ?>
