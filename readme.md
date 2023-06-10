@@ -1,7 +1,12 @@
+<style>
+    .logo{
+        border-radius: 10px;
+    }
+</style>
 <h1 align="center"> GitPoint </h1> <br>
 <p align="center">
   <a href="https://midys.web.id/">
-    <img alt="GitPoint" title="Midys Project" src="https://midys.web.id/assets/images/PROFILE.png" width="100" border-radius="20">
+    <img class="logo" alt="GitPoint" title="Midys Project" src="https://midys.web.id/assets/images/PROFILE.png" width="100" >
   </a>
 </p>
 
